@@ -1,0 +1,355 @@
+@font-face {
+    font-family: Inter;
+    src: url(../Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Inter", sans-serif; */
+    font-family: Inter;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 41px;
+    font-family: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.main-color {
+    color: #0D3356;
+}
+
+.flex {
+    display: flex;
+}
+
+.item-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav__space-between{
+    display: flex;
+    justify-content: space-between;
+    width: 627px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    /* width: 627px; */
+}
+
+.text-gray {
+    color: #B9BBBF;
+}
+
+.text-darkgray{
+    color: #667085;
+}
+
+.text-main {
+    color: #3A4980;
+}
+
+.text-icon {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 40px;
+    color: #3A4980;
+}
+
+.text-sm {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D364D;
+}
+
+.text-large{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.pt-6{
+    padding-top: 6px;
+}
+
+.pt-25{
+    padding-top: 25px;
+}
+
+.btn-1{
+    background-color: #3A4980;
+    border: 1px solid #3A4980;
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 50px;
+}
+
+.btn-2 {
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    color: #344054;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 50px;
+    filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 9999;
+    height: 90px;
+    border-bottom: 1px solid #ededed;
+}
+
+header section {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    /* background-color: aquamarine; */
+    padding: 25px 80px;
+    /* border-bottom: 1px solid #ededed; */
+}
+
+header section div nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+nav span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D364D;
+}
+
+.icon-bag {
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    background-color: #F5F1EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -2px;
+    right: -2px;
+    font-size: small;
+}
+
+.icon-bell {
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    border: 2px solid white;
+    background-color: #EEEFF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+}
+
+.notify {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    background-color: red;
+    top: 0;
+    right: 4px;
+    font-size: small;
+}
+
+main{
+    width: 1280px;
+    margin: 48px auto 113px auto;
+}
+
+.banner{
+    width: 100%;
+    background: rgb(244, 232, 243);
+    background: linear-gradient(90deg, rgba(244, 232, 243, 1) 0%, rgba(243, 239, 246, 1) 50%, rgba(238, 224, 249, 1) 100%);
+    border-radius: 18px;
+    position: relative;
+    height: 287px;
+}
+
+.banner__title{
+    color: #3A4980;
+    position: absolute;
+    top: 63px;
+    left: 55px;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.banner__btn{
+    position: absolute;
+    background-color: #3A4980;
+    color: white;
+    width: 136px;
+    height: 49px;
+    border-radius: 29px;
+    left: 55px;
+    bottom: 49px;
+    font-weight: bold;
+    border: none;
+}
+
+.banner__img{
+    position: absolute;
+    bottom: 0;
+    right: 176px;
+}
+
+.filter{
+    margin: 64px 0 48px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter div{
+    display: flex;
+    gap:11px;
+} 
+
+.filter div:last-child{
+    border: 1px solid #E0E0E0;
+    border-radius: 28px;
+    color: #1D364D;
+    font-weight: 500;
+    padding: 10px 14px;
+}
+
+.filter div div{
+    background-color: #EBEDEC;
+    padding: 10px 14px;
+    border-radius: 28px;
+    color: #1D364D;
+    font-weight: 500;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.content__item{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #F7F5F7;
+    border-radius: 18px;
+}
+
+.content__item__thumnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F5F7;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 30px 36px;
+    position: relative;
+}
+
+.content__item__thumnail span{
+    width: 50;
+    height: 50;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9999px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+}
+
+.content__item__info{
+    margin: 20px;
+}
+
+.pagination{
+    margin: 74px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination span{
+    border: 1px solid #F3F3F3;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+
+.pagination span:nth-child(2) {
+    border: 1px solid #F3F3F3;
+    padding: 10px 14px;
+    border-radius: 4px;
+    color: #3A4980;
+    font-weight: 500;
+    background: rgb(244, 232, 243);
+    background: linear-gradient(90deg, rgba(244, 232, 243, 1) 0%, rgba(243, 239, 246, 1) 50%, rgba(238, 224, 249, 1) 100%);
+}
+
+footer{
+    width: 100%;
+    height: 446px;
+    background: rgb(244, 232, 243);
+    background: linear-gradient(90deg, rgba(244, 232, 243, 1) 0%, rgba(243, 239, 246, 1) 50%, rgba(238, 224, 249, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 87px;
+    line-height: 124px;
+    font-weight: 500;
+}
+

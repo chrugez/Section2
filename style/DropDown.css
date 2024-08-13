@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Inter;
+    src: url(../Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Inter", sans-serif; */
+    font-family: Inter;
+}
+
+h2{
+    font-size: 24px; 
+    margin-bottom: 34px;
+}
+
+.text-sm{
+    font-size: 16px;
+}
+
+.ml-8{
+    margin-left: 8px;
+}
+
+body{
+    margin: 214px 250px 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+nav{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+nav div:hover{
+    color: black;
+    /* transition: black 1s linear; */
+}
+
+section{
+    width: 700px;
+    /* display: flex; */
+    display: none;
+    background-color: white;
+    border-radius: 26px;
+    position: relative;
+}
+
+section:before{
+    content: "";
+    /* height: 2.5rem; */
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    /* background-color: red; */
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+    transform: translateY(-100%);
+}
+
+section > div{
+    margin: 57px;
+    margin-right: 0;
+    padding-right: 57px;
+}
+
+section > div:first-child{
+    width: 300px;
+    border-right: 1px solid #E4E4E4;
+}
+
+.sec-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.select-clicked {
+    color: black;
+}
+
+.caret {
+    transition: 0.3s;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.menu-open{
+    display: flex;
+}

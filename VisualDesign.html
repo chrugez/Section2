@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Design</title>
+    <link rel="stylesheet" href="./style/VisualDesign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <!-- for unminified version add this -->
+    <link rel="stylesheet" type="text/css" href="./proxima-nova-web-fonts-master/fonts/fonts.css" />
+    <!-- for minified version add this -->
+    <link rel="stylesheet" type="text/css" href="./proxima-nova-web-fonts-master/fonts/fonts.min.css" />
+    <script src="https://kit.fontawesome.com/2e54774651.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="">
+            <div class="space-between ">
+                <div class="text-icon">FashionHub</div>
+                <nav>
+                    <span>Category</span>
+                    <span>Brand</span>
+                    <span>Contact</span>
+                    <span>FAQ's</span>
+                </nav>
+            </div>
+            <div class="flex item-center">
+                <span class="icon-bag">
+                    <!-- <i class="fa-solid fa-bag-shopping"></i> -->
+                    <img src="./assets/icon/bag-shopping.png" alt="icon bag-shopping">
+                    <span class="number">3</span>
+                </span>
+                <span class="icon-bell">
+                    <!-- <i class="fa-regular fa-bell" style="font-size: 19px;"></i> -->
+                    <img src="./assets/icon/bell.png" alt="icon bell">
+                    <span class="notify"></span>
+                </span>
+                <span class="icon-bag">
+                    <img src="./assets/image1.png" alt="avatar">
+                </span>
+                <span class="flex-col">
+                    <span class="text-gray text-sm">Good Morning!</span>
+                    <span class="user-name">Scarlet Johnson</span>
+                </span>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="content">
+            <div class="sec-image">
+                <div class="sec-image__thumnail">
+                    <img src="./assets/image2.png" alt="thumnail">
+                </div>
+                <div class="sec-image__images">
+                    <i class="fa-solid fa-chevron-left sec-image__images__icon-left"></i>
+                    <img src="./assets/image3.png" alt="product image">
+                    <img src="./assets/image4.png" alt="product image">
+                    <img src="./assets/image5.png" alt="product image">
+                    <img src="./assets/image6.png" alt="product image">
+                    <i class="fa-solid fa-chevron-right sec-image__images__icon-right"></i>
+                </div>
+            </div>
+            <div class="sec-content">
+                <div class="sec-content__breadcrumb text-gray">
+                    <span>Home</span>
+                    <span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span>Decoration</span>
+                    <span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span>Furniture</span>
+                    <span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span>Storage</span>
+                    <span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span class="text-main bold">Sideboard</span>
+                </div>
+                <div class="sec-content__tittle">
+                    <div>
+                        <div class="space-between__title">
+                            <h1>Embrace Sideboard</h1>
+                            <div class="item-center">
+                                <div class="sec-content__tittle__icon1"><i class="fa-regular fa-heart"></i>109</div>
+                                <div class="sec-content__tittle__icon2">
+                                    <img src="./assets/icon/bookmark.png" alt="bookmark icon">
+                                </div>
+                                <div class="sec-content__tittle__icon3">
+                                    <img src="./assets/icon/share.png" alt="share icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-gray">Teixeira Design Studio</div>
+                    </div>
+
+                </div>
+                <div class="sec-content__price">
+                    <div>
+                        <div class="text-main pb-6 price">$71.56</div>
+                        <span class="text-gray decoration">$71.56</span>
+                    </div>
+                    <div>
+                        <div class="pb-6">
+                            <span class="sec-content__price__star"><i class="fa-regular fa-star"></i>4.8</span>
+                            <span class="sec-content__price__comment"><i class="fa-regular fa-comment-dots"></i>67
+                                Reviews</span>
+                        </div>
+                        <div class="pt-6">
+                            <span class="text-green">93%</span>
+                            <span class="text-gray">of buyers have recommended this.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-content__color">
+                    <h3 class="thin text-gray">Choose a Color</h3>
+                    <div class="item-center">
+                        <div class="">
+                            <img src="./assets/color.png" alt="choosed color">
+                        </div>
+                        <div class="bg-green"></div>
+                        <div class="bg-blue"></div>
+                        <div class="bg-pink"></div>
+                        <div class="bg-radiant">
+                            <img src="./assets/radiant.png" alt="color radiant">
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-content__size">
+                    <h3 class="thin text-gray">Choose a Size</h3>
+                    <div>
+                        <span>
+                            <input type="radio" name="color" id="small" value="Small" checked>
+                            <label for="small">Small</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="color" id="medium" value="Medium">
+                            <label for="medium">Medium</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="color" id="large" value="Large">
+                            <label for="large">Large</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="color" id="xl" value="Extra large">
+                            <label for="xl">Extra Large</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="color" id="xxl" value="XXL">
+                            <label for="xxl">XXL</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="sec-content__addToCard">
+                    <span class="sec-content__addToCard__adjust">
+                        <span class="text-gray bold"> - </span>
+                        <span class="text-main bold"> 5 </span>
+                        <span class="text-main bold"> + </span>
+                    </span>
+                    <span class="sec-content__addToCard__add">
+                        <span>
+                            <img src="./assets/icon/bag-shopping-white.png" alt="bag-shopping-white icon">
+                        </span>
+                        <span>Add To Card</span>
+                    </span>
+                </div>
+                <div class="sec-content__delivery">
+                    <div class="mx-10 flex border-b gap-10">
+                        <!-- <i class="fa-solid fa-truck" style="color: #D75951;"></i> -->
+                        <img src="./assets/truck.svg" alt="icon truck" style="width: 24px;height: 24px;">
+                        <span>
+                            <div class="sec-content__delivery__title">Free Delivery</div>
+                            <div class="under-line sec-content__delivery__desc">Enter your postal code for Delivery
+                                Availability</div>
+                        </span>
+                    </div>
+                    <div class="mx-10 flex gap-10">
+                        <!-- <i class="fa-solid fa-bag-shopping" style="color: #D75951; width: 20px;"></i> -->
+                        <img src="./assets/shopping-bag.svg" alt="icon bag" style="width: 24px;height: 24px;">
+                        <span>
+                            <div class="sec-content__delivery__title">Return Delivery</div>
+                            <div class="sec-content__delivery__desc">Free 30 days Delivery Return. <span
+                                    class="under-line">Details</span>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="more-detail">
+            <div class="more-detail__title">
+                <span><a href="#" class="text-darkblue">Description</a></span>
+                <span class="text-darkgray"><a href="./VisualDesign-Reviews.html">Reviews</a></span>
+            </div>
+            <div class="more-detail__content">
+                <div>
+                    <h4>Product Description</h4>
+                    <p class="text-darkgray">When it's colder than the far side of the moon and spitting rain too,
+                        you've
+                        still
+                        got to look good.
+                        From
+                        water-repellent leather to a rugged outsole, the Lunar Force 1 adapts AF-1 style, so you can
+                        keep
+                        your flame burning
+                        when the weather hits. Metal lace hardware and extended tongue bring mountain boot toughness,
+                        while
+                        the star-studded toe
+                        design gives your look the edge</p>
+                </div>
+                <div>
+                    <h4>Benefits</h4>
+                    <div class="fc-gap">
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Durable leather is easily cleanable so you can keep your look fresh.</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Water-repellent finish and internal membrane help keep your feet dry.</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Toe piece with star pattern adds durability.</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Synthetic insulation helps keep you warm.</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Originally designed for performance hoops, the Air unit delivers lightweight
+                                cushioning.</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Plush tongue wraps over the ankle to help keep out the moisture and cold.</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Rubber outsole with aggressive traction pattern adds durable grip.</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Durable leather is easily cleanable so you can keep your look fresh.</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4>Product Details</h4>
+                    <div class="fc-gap">
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Not intended for use as Personal Protective Equipment (PPE)</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Water-repellent finish and internal membrane help keep your feet dry.</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4>More Detail</h4>
+                    <div class="fc-gap">
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Lunarlon midsole delivers ultra-plush responsiveness</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Encapsulated Air-Sole heel unit for lightweight cushioning</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Colour Shown: Ale Brown/Black/Goldtone/Ale Brown</span>
+                        </div>
+                        <div class="ic text-darkgray">
+                            <img src="./assets/icon/Check icon.png" alt="check icon">
+                            <span>Style: 805899-202</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Similar Items You Might Also Like</h2>
+            <div class="content-slider">
+                <div class="content-slider__item">
+                    <div class="content-slider__item__thumnail">
+                        <img src="./assets/shoes1.png" alt="shoes">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <div class="content-slider__item__info">
+                        <div class="flex-col">
+                            <span class="text-darkgray bold text-large">TDX Sinkers</span>
+                            <span class="text-main bold text-large">₹ 675.00</span>
+                        </div>
+                        <div class="text-gray pt-6 text-sm">5 types of shoes available</div>
+                        <div class="text-gray pt-6">
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FDB022;"></i>
+                            <span>(121)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-slider__item">
+                    <div class="content-slider__item__thumnail">
+                        <img src="./assets/shoes2.png" alt="shoes">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <div class="content-slider__item__info">
+                        <div class="flex-col">
+                            <span class="text-darkgray bold text-large">TDX Sinkers</span>
+                            <span class="text-main bold text-large">₹ 675.00</span>
+                        </div>
+                        <div class="text-gray pt-6 text-sm">5 types of shoes available</div>
+                        <div class="text-gray pt-6">
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FDB022;"></i>
+                            <span>(121)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-slider__item">
+                    <div class="content-slider__item__thumnail">
+                        <img src="./assets/shoes3.png" alt="shoes">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <div class="content-slider__item__info">
+                        <div class="flex-col">
+                            <span class="text-darkgray bold text-large">TDX Sinkers</span>
+                            <span class="text-main bold text-large">₹ 675.00</span>
+                        </div>
+                        <div class="text-gray pt-6 text-sm">5 types of shoes available</div>
+                        <div class="text-gray pt-6">
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FDB022;"></i>
+                            <span>(121)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-slider__item">
+                    <div class="content-slider__item__thumnail">
+                        <img src="./assets/shoes4.png" alt="shoes">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <div class="content-slider__item__info">
+                        <div class="flex-col">
+                            <span class="text-darkgray bold text-large">TDX Sinkers</span>
+                            <span class="text-main bold text-large">₹ 675.00</span>
+                        </div>
+                        <div class="text-gray pt-6 text-sm">5 types of shoes available</div>
+                        <div class="text-gray pt-6">
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FDB022;"></i>
+                            <span>(121)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-slider__item">
+                    <div class="content-slider__item__thumnail">
+                        <img src="./assets/shoes5.png" alt="shoes">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <div class="content-slider__item__info">
+                        <div class="flex-col">
+                            <span class="text-darkgray bold text-large">TDX Sinkers</span>
+                            <span class="text-main bold text-large">₹ 675.00</span>
+                        </div>
+                        <div class="text-gray pt-6 text-sm">5 types of shoes available</div>
+                        <div class="text-gray pt-6">
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FDB022;"></i>
+                            <span>(121)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-slider__item">
+                    <div class="content-slider__item__thumnail">
+                        <img src="./assets/shoes6.png" alt="shoes">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                    <div class="content-slider__item__info">
+                        <div class="flex-col">
+                            <span class="text-darkgray bold text-large">TDX Sinkers</span>
+                            <span class="text-main bold text-large">₹ 675.00</span>
+                        </div>
+                        <div class="text-gray pt-6 text-sm">5 types of shoes available</div>
+                        <div class="text-gray pt-6">
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star" style="color: #FDB022;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #FDB022;"></i>
+                            <span>(121)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-btn__left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="slider-btn__right">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>Footer</span>
+    </footer>
+</body>
+
+</html>
